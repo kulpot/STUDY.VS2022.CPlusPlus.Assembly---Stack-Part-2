@@ -20,9 +20,11 @@ doit proc
 
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	; static data -- ex. count dword 0 -- static data stays until the duration of the program
+	; ESP - stack pointer - visually the stack address is going upward while MEMORY ADDRESS goes downward
 
 	; ------------------------ Assembly - Stack Part 2 --------------------------------------------
 	; ref link:https://www.youtube.com/watch?v=fMaLPvdP6ZE&list=PLRwVmtr-pp05c1HTBj1no6Fl6C6mlxYDG&index=43
+
 
 	;; static data -- RAM -- Stack -- popping out of stack -- LIFO -- LastInFirstOut -- plate reference
 	;int count
@@ -34,8 +36,8 @@ doit proc
 
 	push 8			; push -- put data on a stack
 	push 14
-	push eax
-	push eax
+	push eax		; INTELs least significant value in hexa - c0 1f 12 00 -- registers - 00123FC0
+	push eax		; INTELs least significant value in hexa - c0 1f 12 00 -- registers - 00123FC0
 	push 72
 
 	pop ebx			; pop -- last push(LIFO) -- 72 to ebx
