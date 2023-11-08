@@ -21,6 +21,8 @@ doit proc
 	; this is a comment i can type whatever i like after a semicolon and assembler will ignore it
 	; static data -- ex. count dword 0 -- static data stays until the duration of the program
 	; ESP - stack pointer - visually the stack address is going upward while MEMORY ADDRESS goes downward
+	; INTELs least significant value - also called LSb(LeastSignificantBit)
+	; In computing, the least significant bit (LSb) is the bit position in a binary integer representing the binary 1s place of the integer. Similarly, the most significant bit (MSb) represents the highest-order place of the binary integer.
 
 	; ------------------------ Assembly - Stack Part 2 --------------------------------------------
 	; ref link:https://www.youtube.com/watch?v=fMaLPvdP6ZE&list=PLRwVmtr-pp05c1HTBj1no6Fl6C6mlxYDG&index=43
