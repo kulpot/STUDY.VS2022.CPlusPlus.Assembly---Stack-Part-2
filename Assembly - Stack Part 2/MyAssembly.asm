@@ -10,8 +10,8 @@
 ;power dword 2		; ------- Alternating Operations - A First Code Attempt --------
 ;total dword 0		; ------- Alternating Operations - A First Code Attempt --------
 
-count dword 0		; -------------- Alternating Operations - Making the Loop Do All of the Work ----------------------------
-power dword 1		; -------------- Alternating Operations - Making the Loop Do All of the Work ----------------------------
+count dword 0		; ----- Assembly - Stack 1, 2 --------- Alternating Operations - Making the Loop Do All of the Work ----------------------------
+power dword 1		; ----- Assembly - Stack 1, 2--------- Alternating Operations - Making the Loop Do All of the Work ----------------------------
 
 
 .code
